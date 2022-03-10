@@ -1,10 +1,7 @@
 from dog import Dog
 
 
-def get_dog():
-    return Dog('Daisy')
-
-
-def play(dog):
+def play():
+    dog = Dog('Daisy')
     dog.add_trick('sit')
     print(dog.tricks)
